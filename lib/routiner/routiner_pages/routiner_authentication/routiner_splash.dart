@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:routiner_habit_tracker_app/routiner/routiner_globalclass/routiner_color.dart';
 import 'package:routiner_habit_tracker_app/routiner/routiner_globalclass/routiner_icons.dart';
 import 'package:routiner_habit_tracker_app/routiner/routiner_pages/routiner_authentication/routiner_onboarding.dart';
 
