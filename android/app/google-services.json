@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "895752599807",
+    "project_id": "habitup-abc",
+    "storage_bucket": "habitup-abc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895752599807:android:16a6870da753fef220f4ca",
+        "android_client_info": {
+          "package_name": "com.example.routiner_habit_tracker_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXsHI1VgIV68q2lwpyhUXGwTw8GKa2SnQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
