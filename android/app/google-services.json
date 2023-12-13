@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:895752599807:android:16a6870da753fef220f4ca",
         "android_client_info": {
-          "package_name": "com.example.routiner_habit_tracker_app"
+          "package_name": "com.alphabyte.habitup"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "895752599807-los0auedgqs171jpv64a49gjtun7espq.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.routiner_habit_tracker_app",
+            "package_name": "com.alphabyte.habitup",
             "certificate_hash": "0f676de9f9c52a3568d132767d36c5c35fdc2ee0"
           }
         },
@@ -42,7 +42,7 @@
               "client_id": "895752599807-5auonhmtkujvhsuqro2tovugn53frcde.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.routinerHabitTrackerApp.RunnerTests"
+                "bundle_id": "com.alphabyte.habitup.RunnerTests"
               }
             }
           ]
