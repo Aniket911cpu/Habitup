@@ -10,9 +10,10 @@ import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 
 Future<void> main() async {
-  await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,);
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
@@ -33,14 +34,13 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: themedata.isdark ? RoutinerMythemes.darkTheme : RoutinerMythemes.lightTheme,
+      theme: themedata.isdark
+          ? RoutinerMythemes.darkTheme
+          : RoutinerMythemes.lightTheme,
       fallbackLocale: const Locale('en', 'US'),
       translations: Apptranslation(),
       locale: const Locale('en', 'US'),
       home: const RoutinerSplash(),
     );
   }
-
 }
-
-

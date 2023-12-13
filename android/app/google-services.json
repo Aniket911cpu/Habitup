@@ -12,7 +12,20 @@
           "package_name": "com.example.routiner_habit_tracker_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "895752599807-los0auedgqs171jpv64a49gjtun7espq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.routiner_habit_tracker_app",
+            "certificate_hash": "0f676de9f9c52a3568d132767d36c5c35fdc2ee0"
+          }
+        },
+        {
+          "client_id": "895752599807-i2qv7crsr34ro8ddctm1j8f3p2ukkk38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAXsHI1VgIV68q2lwpyhUXGwTw8GKa2SnQ"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895752599807-5gkeih5ji8ak681ejb13omd5h74a87i8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "895752599807-5auonhmtkujvhsuqro2tovugn53frcde.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.routinerHabitTrackerApp.RunnerTests"
+              }
+            }
+          ]
         }
       }
     }

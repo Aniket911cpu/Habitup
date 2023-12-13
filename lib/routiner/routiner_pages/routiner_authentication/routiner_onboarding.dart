@@ -274,58 +274,39 @@ class _RoutinerOnboardingState extends State<RoutinerOnboarding> {
                             ],
                           ),
                         ),
-                        GestureDetector(
-                          onTap: () async {
-                            await Firebase.initializeApp();
-                            GestureDetector(
-                              onTap: () async {
-                                UserCredential? userCredential = await signInWithGoogle();
-                                if (userCredential != null) {
-                                  // The user successfully signed in. You can use the UserCredential object to get information about the user.
-                                } else {
-                                  // The user did not sign in successfully. Handle the error.
-                                }
-                              },
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                children: [
-                                  Image.asset(
-                                    RoutinerPngimage.google,
-                                    height: height / 40,
-                                  ),
-                                  SizedBox(
-                                    width: width / 36,
-                                  ),
-                                  Text(
-                                    "Google",
-                                    style: pmedium.copyWith(fontSize: 14),
-                                  ),
-                                ],
-                              ),
-                            );
-                          },
-                          child: Container(
-                            height: height / 20,
-                            width: width / 3.3,
-                            decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(50),
-                                color: RoutinerColor.white),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Image.asset(
+                        Container(
+                          height: height / 20,
+                          width: width / 3.3,
+                          decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(50),
+                              color: RoutinerColor.white),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              GestureDetector(
+                                onTap: () async {
+                                  await Firebase.initializeApp();
+                                  UserCredential? userCredential = await signInWithGoogle();
+                                  if (userCredential != null) {
+                                    // The user successfully signed in. You can use the UserCredential object to get information about the user.
+                                  } else {
+                                    // The user did not sign in successfully. Handle the error.
+                                  }
+
+                                },
+                                child: Image.asset(
                                   RoutinerPngimage.google,
                                   height: height / 40,
                                 ),
-                                SizedBox(
-                                  width: width / 36,
-                                ),
-                                Text(
-                                  "Google",
-                                  style: pmedium.copyWith(fontSize: 14),
-                                ),
-                              ],
-                            ),
+                              ),
+                              SizedBox(
+                                width: width / 36,
+                              ),
+                              Text(
+                                "Google",
+                                style: pmedium.copyWith(fontSize: 14),
+                              ),
+                            ],
                           ),
                         ),
                         Container(
